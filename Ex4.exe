@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+float comprimento, largura, preco, custo_total;
+printf ("\nDigite o comprimento da sala em metros: ");
+scanf ("%f", &comprimento);
+printf ("\nDigite a largura da sala em metros: ");
+scanf ("%f", &largura);
+printf ("\nInsira o valor do metro quadrado do carpete: ");
+scanf ("%f", &preco);
+
+custo_total = comprimento * largura * preco;
+
+printf ("\nComprimento: %.2f, Largura: %.2f, Preco\m quadrado: %.2f", comprimento, largura, preco);
+printf ("\nCusto total: %.2f reais", custo_total);
+return 0;
+}

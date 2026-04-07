@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+int n1, resultado;
+printf ("\nDigite um numero inteiro: ");
+scanf ("%d", &n1);
+
+resultado = (n1*3)-((n1+1)*2);
+
+printf ("\nResultado: %d", resultado);
+return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+float base, altura, comprimento, volume;
+printf ("\nDigite o valor da base: ");
+scanf ("%f", &base);
+printf ("\nDigite o valor da altura: ");
+scanf ("%f", &altura);
+printf ("\nDigite o valor do comprimento: ");
+scanf ("%f", &comprimento);
+
+volume = base * altura * comprimento;
+printf ("\nVolume: %.2f reais", volume);
+
+return 0;
+}

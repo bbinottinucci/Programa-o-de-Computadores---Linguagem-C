@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+float g1, g2, g3, premio_total;
+printf ("\nDigite o valor total da premiacao: ");
+scanf ("%f", &premio_total);
+
+g1 = (premio_total * 0.46);
+g2 = (premio_total * 0.32);
+g3 = (premio_total * 0.22);
+
+printf ("\nValor da premiacao total: %.2f reais", premio_total);
+printf ("\nPrimeiro ganhador: %.2f reais", g1);
+printf ("\nsegundo ganhador: %.2f reais", g2);
+printf ("\nterceiro ganhador: %.2f reais", g3);
+
+return 0;
+}

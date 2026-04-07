@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+int n1, n2, divisao, resto;
+
+printf ("\nDigite um numero inteiro: ");
+scanf ("%d", &n1);
+printf ("\nDigite outro numero inteiro: ");
+scanf ("%d", &n2);
+
+divisao = n1/n2;
+resto = n1%n2;
+
+printf ("\nResultado: ");
+printf ("\nParte inteira: %d", divisao);
+printf ("\nResto: %d", resto);
+
+return 0;
+}

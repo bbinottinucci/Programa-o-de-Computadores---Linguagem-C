@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+float salario, ajuste, sal_final;
+printf ("\nDigite o valor do salario inicial: ");
+scanf ("%f", &salario);
+printf ("\nDigite o valor do ajuste em % (0 a 100%): ");
+scanf ("%f", &ajuste);
+
+sal_final = salario + ((salario*ajuste)/100);
+printf ("\nSalario apos reajuste: %.2f", sal_final);
+
+return 0;
+}
